@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="bg-primary-violet font-body">
+    <div>
+      <img
+        class="absolute h-screen hidden md:block"
+        src="images/bg-desktop.svg"
+        alt=""
+      />
+      <img class="absolute md:hidden" src="images/bg-mobile.svg" alt="" />
+      <div
+        class="md:h-screen md:grid md:place-content-center relative z-10 px-7 md:p-0"
+      >
+        <img
+          class="md:pb-20 md:pt-0 pt-6 pb-16 w-32 md:w-auto"
+          src="images/logo.svg"
+          alt=""
+        />
+        <div class="max-w-7xl">
+          <div class="flex flex-col md:flex-row">
+            <img src="images/illustration-mockups.svg" alt="" />
+            <div class="md:p-14 pt-10 pb-14 text-center md:text-left">
+              <h4
+                class="text-white md:text-4xl text-xl font-heading font-semibold pb-5"
+              >
+                Build The Community Your Fans Will Love
+              </h4>
+              <p class="text-white text-opacity-80 md:text-base pb-5 text-sm">
+                Huddle re-imagines the way we build communities. You have a
+                voice, but so does your audience. Create connections with your
+                users as you engage in genuine discussion.
+              </p>
+              <button
+                class="bg-white min-w-48 text-xs md:text-sm px-3 py-3 rounded-3xl text-primary-violet hover:bg-primary-softMagenta hover:text-white transition-all duration-300 shadow-bottom-darkBlue"
+              >
+                Register
+              </button>
+            </div>
+          </div>
+          <div class="md:justify-end justify-center flex pb-5">
+            <div
+              class="md:w-8 w-6 aspect-square border border-white group hover:border-primary-softMagenta transition-all duration-200 rounded-full mx-2 flex items-center justify-center"
+            >
+              <i
+                class="fa-brands fa-facebook-f text-white group-hover:text-primary-softMagenta text-xs"
+              ></i>
+            </div>
+            <div
+              class="md:w-8 w-6 aspect-square border border-white group hover:border-primary-softMagenta transition-all duration-200 rounded-full mx-2 flex items-center justify-center"
+            >
+              <i
+                class="fa-brands fa-twitter text-white group-hover:text-primary-softMagenta text-xs"
+              ></i>
+            </div>
+            <div
+              class="md:w-8 w-6 aspect-square border border-white group hover:border-primary-softMagenta transition-all duration-200 rounded-full mx-2 flex items-center justify-center"
+            >
+              <i
+                class="fa-brands fa-instagram text-white group-hover:text-primary-softMagenta text-xs"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p class="attribution">
+            Challenge by
+            <a
+              class="text-white"
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a class="text-white" href="#">Olusoyemi Timilehin</a>.
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
