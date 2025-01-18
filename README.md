@@ -14,8 +14,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/qr-code-component)
-- Live Site URL: [Add live site URL here](https://timilehin-dex.github.io/qr-code-component/)
+- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [Add live site URL here](https://timilehin-dex.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
